@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="font-family: 'Amatic SC', cursive;">Rick and Kanye</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a style="font-family: 'Amatic SC', cursive;" class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+        </div>
+      </nav>
+      <div class="jumbotron container text-center">
+        
+        <form style="padding-top: 20px">
+            <h1 class="display-4">Choose your Rick and Morty character</h1>
+            <p>Choose a number between 1 and 671</p>
+            <input id="val2" type="number"></input><br/>
+            <h1 class="display-4">What country are they from?</h1>
+            <input id="val1" type="text"></input><br/>
+
+            <input style="margin-top:10px;" id="submit1" type="submit" value="Submit"></input>
+        </form>
+        <h1 id="character"></h1>
+        <p id="kanyeQuote"></p>
+      </div>
+      <div class="text-center row">
+          <div id="img1" class="col-lg-6 col-sm-6">
+            <!-- <img style="width: 70%;" id="morty" src="" alt=""> -->
+        </div>
+        <div id="img2" class="col-lg-6 col-sm-6">
+            <!-- <img style="width: 70%;" id="flag" src="" alt="">   -->
+        </div>
+      </div>
+    
+      <div class="footer">
+        <div class="container" style="padding: 10px"><a href="https://github.com/connerkennedy32/CreativeProject1">GitHub Link</a></div>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script text="type/javascript" src="script.js"></script>
+</body>
+</html>
